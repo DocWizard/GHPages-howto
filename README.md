@@ -32,13 +32,13 @@ Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z pozio
 >
 > * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
 
-Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages - to powinniśmy już umieć. Settings -> Pages -> Deploy from a branch -> Branch MASTER / docs. 
+Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages:.
 <kbd>![alt text](./Resources/B1.png)</kbd>
 
-> [!NOTE]
-> (Prawdopodobnie powinno działać też jeśli wybierzemy jako source 'GitHub Actions', ale przyznam, że jeszcze nie testowałem.)
+> [!CAUTION]
+> Uwaga - robimy to inaczej, niż gdy wrzucaliśmy dokumenty w markdownie. Wybieramy jako source 'GitHub Actions', a nie 'Deploy from a Branch'
 
-Automatycznie uruchomi się build - niepotrzebnie, ale w niczym to nam nie przeszkadza. Github próbuje przerobić nasz output HTML przez generator stron statycznych, i niemal na pewno mu to nie wyjdzie. Musimy zmusić go, żeby potraktował nasz output jako gotową stronę. W tym celu klikamy po kolei:
+Następnie musimy wybrać odpowiedni workflow:
 
 <kbd>![alt text](./Resources/1.png)</kbd>
 <kbd>![alt text](./Resources/2.png)</kbd>
