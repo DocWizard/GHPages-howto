@@ -2,7 +2,7 @@
 
 ## Krok 1A - Co zrobić w MCF:
 
-![alt text](./Resources/MCF.png)
+<kbd>![alt text](./Resources/MCF.png)</kbd>
 
 *Teoretycznie* to wystarczy. Teraz każdorazowo po wprowadzeniu zmian w projekcie możemy kopiować zawartość folderu ./Output/{user}/HTML5 do naszego gitowego repozytorium. Tracimy możliwość automatyzacji tego procesu, ale jeśli komuś bardzo zależy na czasie, albo — zwyczajnie po ludzku — mu się nie chce, to jest to możliwa opcja. W tym wypadku przechodzimy od razu do kroku 4.
 
@@ -12,14 +12,14 @@
 
 ## Krok 3 - gdy już mamy repozytorium, tworzymy nowy output destination:
 
-![alt text](./Resources/A1.png)
-![alt text](./Resources/A2.png)
-![alt text](./Resources/A3.png)
+<kbd>![alt text](./Resources/A1.png)</kbd>
+<kbd>![alt text](./Resources/A2.png)</kbd>
+<kbd>![alt text](./Resources/A3.png)</kbd>
 
 > [!CAUTION] 
 > Uwaga - folder docelowy musi nazywać się 'docs' i być w głównym katalogu  repozytorium. Czyli jeśli repozytorium mamy w folderze C:\Github\Repozytorium, to folder docelowy ustawiamy jako C:\Github\Repozytorium\docs.
 
-![alt text](./Resources/A4.png)
+<kbd>![alt text](./Resources/A4.png)</<kbd>>
 
 ##  Krok 4 - Co zrobić w GitHubie
 
@@ -40,13 +40,13 @@ Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu Git
 
 Automatycznie uruchomi się build - niepotrzebnie, ale w niczym to nam nie przeszkadza. Github próbuje przerobić nasz output HTML przez generator stron statycznych, i niemal na pewno mu to nie wyjdzie. Musimy zmusić go, żeby potraktował nasz output jako gotową stronę. W tym celu klikamy po kolei:
 
-![alt text](./Resources/1.png)
-![alt text](./Resources/2.png)
-![alt text](./Resources/3.png)
-![alt text](./Resources/4.png)
-![alt text](./Resources/5.png)
-![alt text](./Resources/6.png)
-![alt text](./Resources/7.png)
-![alt text](./Resources/8.png)
+<kbd>![alt text](./Resources/1.png)</kbd>
+<kbd>![alt text](./Resources/2.png)</kbd>
+<kbd>![alt text](./Resources/3.png)</kbd>
+<kbd>![alt text](./Resources/4.png)</kbd>
+<kbd>![alt text](./Resources/5.png)</kbd>
+<kbd>![alt text](./Resources/6.png)</kbd>
+<kbd>![alt text](./Resources/7.png)</kbd>
+<kbd>![alt text](./Resources/8.png)</kbd>
 
-Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments.
+Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments. 
