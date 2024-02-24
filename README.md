@@ -23,14 +23,16 @@
 
 ##  Krok 4 - Co zrobić w GitHubie
 
-* Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z poziomu MCF, albo utworzone ręcznie (gdzie będziemy sami, ręcznie wkładać output).
+Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z poziomu MCF, albo utworzone ręcznie (gdzie będziemy sami, ręcznie wkładać output).
 
 >[!TIP]
-> Warto sprawdzić dwie rzeczy:
-> Czy na pewno mój output HTML znajduje się w folderze Docs> (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
-> Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
+>Warto sprawdzić dwie rzeczy:
+>
+> * Czy na pewno mój output HTML znajduje się w folderze Docs> (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
+>
+> * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
 
-* Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages - to powinniśmy już umieć. Settings -> Pages -> Deploy from a branch -> Branch MASTER / docs. 
+Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages - to powinniśmy już umieć. Settings -> Pages -> Deploy from a branch -> Branch MASTER / docs. 
 ![alt text](B1.png)
 
 > [!NOTE]
