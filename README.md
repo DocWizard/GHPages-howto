@@ -19,7 +19,7 @@
 > [!CAUTION] 
 > Uwaga - folder docelowy musi nazywać się 'docs' i być w głównym katalogu  repozytorium. Czyli jeśli repozytorium mamy w folderze C:\Github\Repozytorium, to folder docelowy ustawiamy jako C:\Github\Repozytorium\docs.
 
-<kbd>![alt text](./Resources/A4.png)</<kbd>>
+<kbd>![alt text](./Resources/A4.png)</kbd>
 
 ##  Krok 4 - Co zrobić w GitHubie
 
@@ -33,7 +33,7 @@ Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z pozio
 > * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
 
 Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages - to powinniśmy już umieć. Settings -> Pages -> Deploy from a branch -> Branch MASTER / docs. 
-![alt text](B1.png)
+<kbd>![alt text](./Resources/B1.png)</kbd>
 
 > [!NOTE]
 > (Prawdopodobnie powinno działać też jeśli wybierzemy jako source 'GitHub Actions', ale przyznam, że jeszcze nie testowałem.)
