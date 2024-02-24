@@ -6,7 +6,7 @@
 
 ![alt text](./Resources/MCF.png)
 
-# Co zrobić w MCF: Wersja z GitHubem.
+# Co zrobić w MCF: Wersja z GitHubem. Robimy to, co wyżej, plus:
 
 # Krok 1 - łączymy projekt z repo w GitHubie.[Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
 
