@@ -28,7 +28,7 @@ Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z pozio
 >[!TIP]
 >Warto sprawdzić dwie rzeczy:
 >
-> * Czy na pewno mój output HTML znajduje się w folderze Docs> (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
+> * Czy na pewno mój output HTML znajduje się w folderze Docs? (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
 >
 > * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
 
