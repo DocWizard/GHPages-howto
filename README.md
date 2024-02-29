@@ -15,6 +15,8 @@
 
 Od tego momentu w menu "Source Control" (na samej górze, w pasku zadań) mamy standardowe operacje Gitowe - commit, pull, push. Po zmianach w projekcie robimy commity, a następnie pushujemy. Znacie to już z zajęć :)
 
+<kbd>![alt text](./Resources/MCF2.png)</kbd>
+
 ## Krok 3 - gdy już mamy podłączone repozytorium, tworzymy nowy output destination:
 
 <kbd>![alt text](./Resources/A1.png)</kbd>
