@@ -10,7 +10,12 @@
 
 ## Krok 2 - łączymy projekt z repo w GitHubie. [Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
 
-## Krok 3 - gdy już mamy repozytorium, tworzymy nowy output destination:
+> [!CAUTION]
+> Robimy wszystko z powyższego tutoriala do punktu 'Upload your Madcap project to GitHub using VS Code'. Nie ma potrzeby łączenia VS Code z GitHubem!
+
+Od tego momentu w menu "Source Control" (na samej górze, w pasku zadań) mamy standardowe operacje Gitowe - commit, pull, push. Po zmianach w projekcie robimy commity, a następnie pushujemy. Znacie to już z zajęć :)
+
+## Krok 3 - gdy już mamy podłączone repozytorium, tworzymy nowy output destination:
 
 <kbd>![alt text](./Resources/A1.png)</kbd>
 <kbd>![alt text](./Resources/A2.png)</kbd>
