@@ -13,7 +13,7 @@
 > [!CAUTION]
 > Robimy wszystko z powyższego tutoriala do punktu 'Upload your Madcap project to GitHub using VS Code'. Nie ma potrzeby łączenia VS Code z GitHubem!
 
-Od tego momentu w menu "Source Control" (na samej górze, w pasku zadań) mamy standardowe operacje Gitowe - commit, pull, push. Po zmianach w projekcie robimy commity, a następnie pushujemy. Znacie to już z zajęć :)
+Od tego momentu w menu "Source Control" (na samej górze, w pasku zadań) mamy standardowe operacje Gitowe - commit, pull, push. Po zmianach w projekcie robimy commity, a następnie pushujemy. **Jeszcze nic nie pushujemy!**
 
 <kbd>![alt text](./Resources/MCF2.png)</kbd>
 
@@ -34,7 +34,6 @@ Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z pozio
 
 >[!TIP]
 >Warto sprawdzić dwie rzeczy:
->
 > * Czy na pewno mój output HTML znajduje się w folderze Docs? (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
 >
 > * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
@@ -56,4 +55,5 @@ Następnie musimy wybrać odpowiedni workflow:
 <kbd>![alt text](./Resources/7.png)</kbd>
 <kbd>![alt text](./Resources/8.png)</kbd>
 
-Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments. 
+## Krok 5 - Finisz
+Teraz, każdorazowo po wprowadzeniu w MCF zmian które chcemy opublikować na stronie, robimy sobie build HTML5 output, a potem commit i push. Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments.
