@@ -1,9 +1,9 @@
 # Jak opublikować output z MadCap Flare w GitHub Pages.
 
 ## Wersja z integracją MCF z GitHubem. 
-[Tu dostępny wariant łatwiejszy, wykorzystujący GitHub Desktop](./README2.md)
+[Tu dostępny wariant łatwiejszy w konfiguracji, wykorzystujący GitHub Desktop](./README2.md)
 
-## Krok 1 - Jeśli nie mamy jeszcze zainstalowanego Gita - należy ściągnąć i zainstalować - [LINK](https://git-scm.com/downloads). Uwaga! GitHub Desktop to nie to samo, co Git! 
+## Krok 1 - Jeśli nie mamy jeszcze zainstalowanego Gita - należy go ściągnąć i zainstalować - [LINK](https://git-scm.com/downloads). Uwaga! GitHub Desktop to nie to samo, co Git!
 
 ## Krok 2 - Łączymy projekt z repo w GitHubie. [Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
 
@@ -19,7 +19,6 @@
 <kbd>![alt text](./Resources/MCF.png)</kbd>
 
 ### Następnie tworzymy nowy publishing destination, przechodząc poniższe kroki:
-
 
 <kbd>![alt text](./Resources/A1.png)</kbd>
 <kbd>![alt text](./Resources/A2.png)</kbd>
