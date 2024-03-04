@@ -38,7 +38,7 @@ Na tym etapie powinniśmy mieć stworzone repozytorium w GitHubie - albo z pozio
 >Warto sprawdzić dwie rzeczy:
 > * Czy na pewno mój output HTML znajduje się w folderze Docs? (Nie dotyczy, jeśli wrzucamy pliki do repo ręcznie)
 >
-> * Czy na pewno w folderze Docs znajduje się plik index.html, a nie 'home.htm'? 
+> * Czy na pewno w folderze Docs znajduje się plik index.html? 
 
 Gdy mamy już repozytorium z naszym outputem, otwieramy je z poziomu serwisu GitHub. Ustawiamy GitHub Pages:.
 <kbd>![alt text](./Resources/B1.png)</kbd>
@@ -58,4 +58,4 @@ Następnie musimy wybrać odpowiedni workflow:
 <kbd>![alt text](./Resources/8.png)</kbd>
 
 ## Krok 5 - Finisz
-Teraz, każdorazowo po wprowadzeniu w MCF zmian które chcemy opublikować na stronie, robimy sobie build HTML5 output, a potem commit i push. Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments.
+Teraz, każdorazowo po wprowadzeniu w MCF zmian które chcemy opublikować na stronie, robimy sobie publish HTML5 output, a potem commit i push. Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić w deployments.
