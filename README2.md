@@ -18,7 +18,7 @@ Przygotowanie projektu do publikacji w GitHub Pages:
 
 <kbd>![alt text](./Resources/A1.png)</kbd>
 <kbd>![alt text](./Resources/A2.png)</kbd>
-<kbd>![alt text](./Resources/Easy_workflow/3.png)</kbd>
+<kbd>![alt text](./Resources/Easy_Workflow/3.png)</kbd>
 <kbd>![alt text](./Resources/A4.png)</kbd>
 
 ### <kbd>CTRL+SHIFT+S</kbd>, upewniamy się, że wszystkie zmiany zostały zachowane. Następnie wybieramy "publish HTML5":
@@ -29,7 +29,7 @@ Przygotowanie projektu do publikacji w GitHub Pages:
 
 ### Zaglądamy do folderu z repozytorium. Powinny się tam pojawić pliki z naszą stroną w HTML-u:
 
-<kbd>![alt text](./Resources/Easy_workflow/4.png)</kbd>
+<kbd>![alt text](./Resources/Easy_Workflow/4.png)</kbd>
 
 >[!CAUTION]
 > Jeśli nie, sprawdzamy jeszcze raz czy przy tworzeniu publishing destination podaliśmy właściwy folder, czy na pewno zapisaliśmy wszystkie zmiany, oraz czy publishing się udał. 
@@ -40,22 +40,22 @@ Przygotowanie projektu do publikacji w GitHub Pages:
 
 Strona jest gotowa do wrzucenia do serwisu GitHub. Sprawdzamy, czy GitHub Desktop widzi nasze zmiany - powinny wyświetlić się po lewej stronie. Jeśli tak, robimy commit:
 
-<kbd>![alt text](./Resources/Easy_workflow/6.png)</kbd>
+<kbd>![alt text](./Resources/Easy_Workflow/6.png)</kbd>
 
 Następnie klikamy "Publish repository.":
 
-<kbd>![alt text](./Resources/Easy_workflow/7.png)</kbd>
-<kbd>![alt text](./Resources/Easy_workflow/8.png)</kbd>
+<kbd>![alt text](./Resources/Easy_Workflow/7.png)</kbd>
+<kbd>![alt text](./Resources/Easy_Workflow/8.png)</kbd>
 
 ## Krok 4: GitHub Pages:
 
 Ustawiamy GitHub Pages:
 
-<kbd>![alt text](./Resources/Easy_workflow/9.png)
+<kbd>![alt text](./Resources/Easy_Workflow/9.png)
 
 Wracamy do głównej strony naszego repozytorium i czekamy na build. Żółta kropka oznacza, że projekt się jeszcze przetwarza. Zielona - wszystko gotowe. Wtedy przechodzimy od razu do kroku 5.
 
-<kbd>![alt text](./Resources/Easy_workflow/10.png)
+<kbd>![alt text](./Resources/Easy_Workflow/10.png)
 
 Jeśli pojawią się błędy przy publikacji - czerwony krzyżyk -  możliwe że defaultowe ustawienia GitHub Pages nie radzą sobie z wybranym przez nas template. W takim wypadku ustawiamy jako source 'GitHub Actions', a nie 'Deploy from a Branch', wykonując poniższe kroki:
 
@@ -76,10 +76,10 @@ Następnie musimy wybrać odpowiedni workflow:
 
 ### Zaglądamy na naszą nowoopublikowaną stronę, sprawdzamy czy wszystko wygląda tak, jak powinno:
 
-<kbd>![alt text](./Resources/Easy_workflow/11.png)
-<kbd>![alt text](./Resources/Easy_workflow/12.png)
+<kbd>![alt text](./Resources/Easy_Workflow/11.png)
+<kbd>![alt text](./Resources/Easy_Workflow/12.png)
 
 ### Wszystko gotowe. Od teraz, za każdym razem gdy chcemy wrzucić nową wersję naszego projektu na GitHub, najpierw robimy Publish w MadCap Flare, a następnie przez GitHub Desktop — commit i push:
 
 ![alt text](./Resources/publish.gif)
-![alt text](./Resources/Easy_workflow/push.gif)
+![alt text](./Resources/Easy_Workflow/push.gif)
