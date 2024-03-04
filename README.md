@@ -4,9 +4,11 @@
 
 <kbd>![alt text](./Resources/MCF.png)</kbd>
 
-*Teoretycznie* to wystarczy. Teraz każdorazowo po wprowadzeniu zmian w projekcie możemy kopiować zawartość folderu ./Output/{user}/HTML5 do naszego gitowego repozytorium. Tracimy możliwość automatyzacji tego procesu, ale jeśli komuś bardzo zależy na czasie, albo — zwyczajnie po ludzku — mu się nie chce, to jest to możliwa opcja. W tym wypadku przechodzimy od razu do kroku 4.
+*Teoretycznie* to wystarczy. Teraz każdorazowo po wprowadzeniu zmian w projekcie możemy kopiować zawartość folderu ./Output/{user}/HTML5 do naszego gitowego repozytorium. Tracimy możliwość automatyzacji tego procesu, ale jeśli komuś bardzo zależy na czasie, albo — zwyczajnie po ludzku — mu się nie chce, to jest to możliwa opcja.
 
 ## Krok 1B - Co zrobić w MCF: Wersja z integracją MCF z GitHubem. Robimy to, co wyżej, plus:
+
+## UWAGA - Jeśli nie mamy jeszcze zainstalowanego Gita (nie Github Desktop, a Git! - do ściągnięcia [TUTAJ](https://git-scm.com/downloads))
 
 ## Krok 2 - łączymy projekt z repo w GitHubie. [Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
 
