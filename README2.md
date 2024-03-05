@@ -32,7 +32,8 @@ Przygotowanie projektu do publikacji w GitHub Pages:
 <kbd>![alt text](./Resources/Easy_Workflow/4.png)</kbd>
 
 >[!CAUTION]
-> Jeśli nie, sprawdzamy jeszcze raz czy przy tworzeniu publishing destination podaliśmy właściwy folder, czy na pewno zapisaliśmy wszystkie zmiany, oraz czy publishing się udał. 
+> Jeśli pliki się nie pojawiły, sprawdzamy jeszcze raz czy przy tworzeniu publishing destination podaliśmy właściwy folder, czy na pewno zapisaliśmy wszystkie zmiany, oraz czy publishing się udał. 
+
 >[!CAUTION]
 > Sprawdzamy też, czy na pewno mamy plik index.html. Jeśli nie, wykonujemy kroki z pierwszego zrzutu ekranu (tj. początek kroku 2)!
 
