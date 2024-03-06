@@ -1,19 +1,21 @@
-# Jak opublikować output z MadCap Flare w GitHub Pages.
+# Publikacja outputu z MadCap Flare w Github Pages
 
 ## Wersja z integracją MCF z GitHubem. 
-[Tu dostępny wariant łatwiejszy w konfiguracji, wykorzystujący GitHub Desktop](./README2.md)
+### [Tu dostępny wariant łatwiejszy w konfiguracji, wykorzystujący GitHub Desktop](./README2.md)
 
-## Krok 1 - Jeśli nie mamy jeszcze zainstalowanego Gita - należy go ściągnąć i zainstalować - [LINK](https://git-scm.com/downloads). Uwaga! GitHub Desktop to nie to samo, co Git!
+## Krok 1. Jeśli nie mamy jeszcze zainstalowanego Gita &mdash; należy go ściągnąć i zainstalować. [LINK](https://git-scm.com/downloads). 
 
-## Krok 2 - Łączymy projekt z repo w GitHubie. [Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
+> [!IMPORTANT]
+> GitHub Desktop to nie to samo, co Git!
+
+## Krok 2. Łączymy projekt z repo w GitHubie. [Tu jest doskonała dokumentacja (LINK)](https://docsy-site.netlify.app/docs/madcap-flare/connect-madcap-to-git/#bind-using-the-flare-interface)
 
 > [!CAUTION]
 > Przechodzimy przez wszystkie kroki z powyższego tutoriala do punktu 'Upload your Madcap project to GitHub using VS Code'. Nie ma potrzeby łączenia VS Code z GitHubem!
-
-> [!CAUTION]
+>
 > Powyższy tutorial nie uwzględnia momentu, w którym MCF prosi o login i hasło do GitHuba. Gdy pojawi się takie okno dialogowe, należy podać te dane.
 
-## Krok 3 - Przygotowanie projektu do publikacji w GitHub Pages:
+## Krok 3. Przygotowanie projektu do publikacji w GitHub Pages:
 
 ### Najpierw przechodzimy przez poniższe kroki, by zmienić format outputu - zależy nam, by główna strona projektu nazywała się 'index.html':
 <kbd>![alt text](./Resources/MCF.png)</kbd>
@@ -36,7 +38,7 @@ Od tego momentu w menu "Source Control" (na samej górze, w pasku zadań) mamy t
 
 <kbd>![alt text](./Resources/MCF2.png)</kbd>
 
-## Krok 4 - Projekt gotowy do publikacji
+## Krok 4. Projekt gotowy do publikacji
 
 W targecie HTML5 robimy Publish:
 
@@ -50,7 +52,7 @@ Cały projekt powinien wpaść do naszego, utworzonego w kroku 2. repozytorium. 
 >
 > * Czy na pewno w folderze Docs znajduje się plik index.html? 
 
-##  Krok 5 - Co zrobić w GitHubie
+##  Krok 5. Publikacja w GitHub Pages
 
 Ustawiamy GitHub Pages:
 
@@ -59,8 +61,9 @@ Ustawiamy GitHub Pages:
 >[!NOTE]
 > Interfejs GitHub Pages pozwala nam tu wyłącznie na wybranie folderu /docs pisanego małą literą, ale w praktyce - opublikuje także z /Docs. Wyjątkowo nie przejmujemy się wersalikami. 
 
-Jeśli pojawią się błędy przy publikacji, możliwe że defaultowe ustawienia GitHub Pages nie radzą sobie z wybranym przez nas template. W takim wypadku ustawiamy jako source 'GitHub Actions', a nie 'Deploy from a Branch', wykonując poniższe kroki:
-
+Jeśli pojawią się błędy przy publikacji, możliwe że defaultowe ustawienia GitHub Pages nie radzą sobie z wybranym przez nas template. W takim wypadku ustawiamy jako source 'GitHub Actions', a nie 'Deploy from a Branch':
+<details><summary>(Kliknij, by zobaczyć jak ustawić GitHub Actions)</summary>
+  
 <kbd>![alt text](./Resources/B1.png)</kbd>
 
 Następnie musimy wybrać odpowiedni workflow:
@@ -74,7 +77,10 @@ Następnie musimy wybrać odpowiedni workflow:
 <kbd>![alt text](./Resources/7.png)</kbd>
 <kbd>![alt text](./Resources/8.png)</kbd>
 
-## Krok 6 - Finisz
+</details>
+
+
+## Krok 6. Finisz 🚀🚀🚀
 Teraz, każdorazowo po wprowadzeniu w naszym projekcie w MCF zmian które chcemy opublikować na stronie, ponawiamy krok 4, czyli publish HTML5 output. Jeśli wszystko poszło zgodnie z planem, to za chwilę output powinien się pojawić na stronie.
 
 <kbd>![alt text](./Resources/publish.gif)</kbd>
