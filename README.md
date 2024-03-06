@@ -56,6 +56,9 @@ Ustawiamy GitHub Pages:
 
 <kbd>![alt text](./Resources/0.png)
 
+>[!NOTE]
+> Interfejs GitHub Pages pozwala nam tu wyłącznie na wybranie folderu /docs pisanego małą literą, ale w praktyce - opublikuje także z /Docs. Wyjątkowo nie przejmujemy się wersalikami. 
+
 Jeśli pojawią się błędy przy publikacji, możliwe że defaultowe ustawienia GitHub Pages nie radzą sobie z wybranym przez nas template. W takim wypadku ustawiamy jako source 'GitHub Actions', a nie 'Deploy from a Branch', wykonując poniższe kroki:
 
 <kbd>![alt text](./Resources/B1.png)</kbd>
