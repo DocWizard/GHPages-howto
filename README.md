@@ -23,8 +23,10 @@
 <kbd>![alt text](./Resources/A1.png)</kbd>
 <kbd>![alt text](./Resources/A2.png)</kbd>
 > [!CAUTION] 
-> Uwaga - w tym przypadku folder docelowy musi nazywać się 'Docs' i być w głównym katalogu repozytorium. Czyli jeśli repozytorium mamy w folderze C:\Github\Repozytorium, to folder docelowy ustawiamy jako C:\Github\Repozytorium\Docs.
+> W tym przypadku folder docelowy musi nazywać się 'Docs' i być w głównym katalogu projektu, który bindujemy z Gitem. Jeśli projekt (i jednocześnie nasze repozytorium) mamy w folderze C:\Github\ProjektZaliczeniowy, to folder docelowy ustawiamy jako C:\Github\ProjektZaliczeniowy\Docs.
 >
+> Pilnujemy wielkich liter w nazwie folderu! Jeśli piszemy 'Docs', to konsekwentnie wszędzie indziej do folderu musimy się odwoływać wielką literą. Jeśli 'docs', to małą.
+
 <kbd>![alt text](./Resources/A3.png)</kbd>
 <kbd>![alt text](./Resources/A4.png)</kbd>
 
