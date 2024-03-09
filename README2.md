@@ -60,6 +60,8 @@ Wracamy do głównej strony naszego repozytorium i czekamy na build. Żółta kr
 
 Jeśli pojawią się błędy przy publikacji - czerwony krzyżyk -  możliwe że defaultowe ustawienia GitHub Pages nie radzą sobie z wybranym przez nas template. W takim wypadku ustawiamy jako source 'GitHub Actions', a nie 'Deploy from a Branch', wykonując poniższe kroki:
 
+<details><summary>(Kliknij, by zobaczyć jak ustawić GitHub Actions)</summary>
+
 <kbd>![alt text](./Resources/B1.png)</kbd>
 
 Następnie musimy wybrać odpowiedni workflow:
@@ -72,6 +74,8 @@ Następnie musimy wybrać odpowiedni workflow:
 <kbd>![alt text](./Resources/6.png)</kbd>
 <kbd>![alt text](./Resources/7.png)</kbd>
 <kbd>![alt text](./Resources/8.png)</kbd>
+
+</details>
 
 ## Krok 5: Sukces!
 
